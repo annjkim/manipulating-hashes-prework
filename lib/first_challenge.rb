@@ -14,7 +14,22 @@ def first_challenge
   }
 
   #your code here
-
+contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+ 
+puts contacts 
+#  => {
+  "Jon Snow" => {
+    name: "Jon",
+    email: "jon_snow@thewall.we", 
+    favorite_icecream_flavors: ["chocolate", "vanilla", "mint chip"],
+    knows: nil
+  },
+  "Freddy Mercury" => {
+    name: "Freddy",
+    email: "freddy@mercury.com",
+    favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
+  }
+}
 
   #remember to return your newly altered contacts hash!
   contacts
